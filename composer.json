@@ -1,0 +1,16 @@
+{
+    "name": "stephenhill/diffie-hellman",
+    "description": "",
+    "license": "MIT",
+    "require": {
+        "ext-gmp": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "StephenHill\\": "src/"
+        }
+    }
+}
